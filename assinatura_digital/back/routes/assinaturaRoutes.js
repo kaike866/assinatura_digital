@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Assinatura = require("../models/Assinatura");
+const Assinatura = require("../models/Assinatura.js");
 
 // 🔧 Nome fixo do documento usado em TODAS as rotas
 const DOC_NAME = "documento-principal";
